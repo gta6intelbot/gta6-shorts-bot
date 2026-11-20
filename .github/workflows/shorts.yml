@@ -1,0 +1,12 @@
+
+name: GTA 6 Shorts Bot
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start bot
+        run: echo "GTA 6 Intel TV Bot is ready!"
